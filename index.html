@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <title>Tribute to LG</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,600;1,300;1,400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css">
+</head>
+    <body>
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="data:image/png;base64,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"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">ABOUT</a></li>
+                        <li><a href="">MOBILES</a></li>
+                        <li><a href="">SUPPORT</a></li>
+                        <li><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <div class="text-box">
+                <h1>"Together we can make life better"</h1>
+                <p>Enhancing your life with LG's products comes with great values,benefits,promise and personality.</p>
+                <a href="" class="hero-btn">Visit us to know more</a>
+            </div>
+
+        </section>
+
+       
+
+    <!-----phones-->
+
+    <section class="Brand">
+        <h1>MOBILE PHONES</h1>
+        <p>The latest, expansive FullVision Display gives you more to see. The 18:9 screen brings a new dimension to the smartphone viewing experience. Immerse yourself in a whole new level of videos, gaming, and browsing.</p>
+
+        <div class="row">
+            <div class="Products-col">
+                <img src="https://www.lg.com/in/images/plp-b2c/banner-2021/W41-category-banner-D.jpg">
+            </div>
+            
+        </div>
+
+        <section class="Left">
+            <h1>LATEST RELEASE</h1>
+            <p><a href="C:\Users\ADMIN\Desktop\FSWD\TIE Proj\indexx.html">Click here to know more!</a></p>
+        </section>
+
+
+
+
+        <div class="column">
+            <div class="prod-col">
+                <img src=https://www.lg.com/in/images/mobile-phones/md07520172/LMG910EMW-Thumb-350.jpg>
+                <h3>LG Velvet</h3>
+                <h5>Dual 17.3cm (6.8) P-OLED FHD+ Display<br>
+                    48MP Rear Camera<br>
+                    120° Wide and 79° Standard Rear Cameras<br>
+                    LG 3D Sound Engine & Stereo Speakers<br>
+                    Rs 36990/-</h5> 
+           </div>
+            <div class="prod-col">
+                 <img src=https://www.lg.com/in/images/mobile-phones/md06155776/Thumb_G350.jpg>
+                 <h3>LG W10</h3>
+                 <h5>Dual Smart Camera : 13MP + 5MP PDAF<br>
+                    8MP Front Camera with Flash<br>
+                    15.72 centimeters (6.19) 18.9:9 HD+ FullVision™<br>
+                    Android v9.0 operating system<br>
+                    Rs 9999/-
+                </h5>
+            </div>
+
+           <div class="prod-col">
+               <img src=https://www.lg.com/in/images/mobile-phones/md06226417/LMX210LMW_front_view_Thumb_350_1.jpg>
+               <h3>LG W10 Alpha</h3>
+               <h5>14.5cm (5.71) HD+ RainDrop Notch Display<br>
+                1.6Ghz Octa Core Processor<br>
+                8MP Front / 8MP Selfie Camera<br>
+                3450mAh long-lasting battery<br>
+                Rs 9999/-</h5>
+           </div>
+        </div>
+
+        <div class="column2">
+            <div class="prod-col2">
+                <img src=https://www.lg.com/in/images/mobile-phones/md06190476/350.jpg>
+                <h3>LG W30 Pro</h3>
+                <h5>15.9cm (6.217) HD+ V FullVision Water Drop Display<br>
+                    Triple AI Camera: 13MP Standard + 5MP Depth Sensor + 8MP wide<br>
+                    Secondary Camera: 16MP Selfie with beauty shots<br>
+                    Qualcomm® Snapdragon™ 632 Octa-core processor<br>
+                    Rs 12999/-
+                </h5>
+            </div>
+            <div class="prod-col2">
+                <img src=https://www.lg.com/in/images/mobile-phones/md07519000/LMK315IM-Thumb-350-v1.jpg>
+                <h3>LG W31 +</h3>
+                <h5>16.5 cm (6.52) HD+ FullVision(20:9 Aspect Ratio)<br>
+                    Triple Camera: 13MP Standard + 5MP Wide + 2MP Depth<br>
+                    Secondary Camera: 8MP<br>
+                    MediaTekHelio G25, 2.0GHz Octa-Core Processor<br>
+                    Rs 14000/-
+                </h5>
+            </div>
+            <div class="prod-col2">
+                <img src=https://www.lg.com/in/images/mobile-phones/md06193656/Blue_Q60_Thumb-350_upd.jpg>
+                <h3>LG Q60</h3>
+                <h5>15.9cm (6.26) IPS FullVision U Notch display<br>
+                    Triple Rear Camera: 16MP PDAF, 5MP ultra wide (120°), 2MP depth sensor<br>
+                    MIL-STD-810G compliance Tested<br>
+                    3GB RAM/64GB ROM/MicroSD (up to 2TB)<br>
+                    Rs 13490/-
+                </h5>
+            </div>
+        </div>
+
+
+    
+    </section>
+        <!---- Our Products ------->
+
+        <section class="Products">
+            <h1>Browse with Ease, Shop with Confidence</h1>
+            <p>LG mobile phones combine functionality with a sleek design. Check out LG’s wide range of mobile phones below to find out which smartphone suits you.</p>
+        
+            <div class="row">
+                <div class="Products-col">
+                    <img src="https://www.lg.com/in/images/01-Free-Shoping-v1.jpg">
+                    <h3>Free Shipping</h3>
+                    <p>Avail Free & Safe shipping in serviceable pin codes, whenever you shop from https://www.lg.com/in We take pride in delivering most of our orders on priority</p>
+                </div>
+                <div class="Products-col">
+                    <img src="https://www.lg.com/in/images/02-Secure-Payments.jpg">
+                    <h3>Secure Payments</h3>
+                    <p>Your Data security & privacy is our priority. Pay securely through 128 bit encrypted payment gateway. We support credit cards, net banking and debits cards.</p>
+                </div>
+                <div class="Products-col">
+                    <img src="https://www.lg.com/in/images/03-Exclusive-Offers.jpg">
+                    <h3>Exclusive Offers</h3>
+                    <p>Now enjoy the benefits of LG exclusive offers. Subscribe LG.com to remain updated on latest offers</p>
+                </div>
+                <div class="Products-col">
+                    <img src="https://www.lg.com/in/images/04-Hassle-Free-Installation.jpg">
+                    <h3>Hassle Free<br> Installation</h3>
+                    <p>Once you place order on LG.com your installation request will be generated post-delivery and our expert engineers will guide you through user manual</p>
+                </div>
+            </div>
+        </section>
+
+        <!---- Call to action-->
+
+        <section class="cta">
+            <h1>LG Product Service And Support</h1>
+            <a href="" class="hero-btn">CONTACT US</a>
+        </section>
+
+<!------Why Lg left the mobile market-------->
+
+
+    <section class="Left">
+        <h1>Why LG left the Mobile Market?</h1>
+        <p><a href="C:\Users\ADMIN\Desktop\FSWD\TIE Proj\indexx.html">Click here to know more!</a></p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+        <!----- FOOTER ----->
+
+    <section class="footer">
+            <h4>About us</h4>
+            <p>Whether you're searching for basic cell phones, state-of-the-art smartphones or something in between, it's all at your fingertips. Smartphones: Featuring ultra-fast processors,<br> the latest apps, high-resolution cameras, HD displays, sophisticated designs and the newest technology, smartphones make it easy to stay organised<br>and entertained on the go.We wish to maintain our hard-earned reputation for bringing added value to the lives of consumers.<br>Enhancing your life with LG's products comes with great values, benefits, promise and personality.<br>LG Electronics allows you to realize your dreams and offers<br>the "Right People" great opportunities for growth.</p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        <!---------JavaScript for toggle menu-------->
+        <script>
+            var navLinks= document.getElementById("navLinks");
+
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+</html>
